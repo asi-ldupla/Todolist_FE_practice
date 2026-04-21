@@ -1,0 +1,46 @@
+/* Navbar.css
+nav {
+  background-color: #333;
+  padding: 12px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+nav a.active {
+  border-bottom: 2px solid #00bcd4;
+} */
+
+nav {
+  background: #1e1e2f;
+  padding: 14px 24px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a.active {
+  color: #4fc3f7;
+  border-bottom: 2px solid #4fc3f7;
+}
